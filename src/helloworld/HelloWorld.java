@@ -24,12 +24,12 @@ public class HelloWorld {
         double[] score = new double[11];
         System.out.println("โปรดกรอกคะแนนจำนวน " + score.length + " คะแนน");
         for (int i = 0; i < score.length; i++) {
-            System.out.print("โปรดกรอกคะแนนที่ " + (i + 1) + " :");
+            System.out.println("โปรดกรอกคะแนนที่ " + (i + 1) + " :");
             score[i] = input.nextDouble();
 
         }
 
-        int sum = 0;
+        double sum = 0;
         for (int i = 0; i < score.length; i++) {
 
             sum += score[i];
